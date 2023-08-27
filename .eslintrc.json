@@ -1,3 +1,14 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "indent": "off",
+    "no-underscore-dangle": "off",
+    "no-param-reassign": "off",
+    "import/order": "off",
+    "no-restricted-globals": "off",
+    "import/no-extraneous-dependencies": "off",
+    "object-curly-newline": "off"
+  }
 }
